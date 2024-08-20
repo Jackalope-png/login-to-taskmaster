@@ -1,0 +1,82 @@
+.borderborder{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 40%;
+    height: 50%;
+    margin:0;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap:5%;
+}
+.inputinput{
+    height: 18%;
+    width: 50%;
+}
+.buttonbutton{
+  color: white;
+  background-color: rgb(0, 136, 255);
+  height: 23%;
+  width: 30%;
+}
+.rowww{
+    display: flex;
+    flex-direction: row;
+    height:25%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:3%;
+}
+.taskdiv{
+    border:1px solid gray;
+    font-size: 25px;
+    background-color: rgb(132, 223, 193);
+    width: 75%;
+    height: 7.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15%;
+}
+.divimg{
+    width: fit-content;
+    height: 100%;
+    background-color: blue;
+}
+.divimg2{
+    width: fit-content;
+    height: 100%;
+    background-color:chartreuse;
+}
+
+.borderborder2{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 20%;
+    height: 50%;
+    margin:0;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap:5%;
+}
+.smaller{
+    font-size: medium;
+    container-name: sidebar
+}
+.smaller2{
+    font-size: small;
+    container-name: sidebar
+}
+@container sidebar (min-width: 700px) {
+    .module h2 {
+      font-size: 2em;
+    }
+  }
